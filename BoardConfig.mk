@@ -152,6 +152,7 @@ TW_INCLUDE_REPACKTOOLS := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TW_DEFAULT_BRIGHTNESS := 1200
+TW_USE_FSCRYPT_POLICY := 1
 TW_NO_SCREEN_BLANK := true
 TW_EXCLUDE_APEX := true
 
