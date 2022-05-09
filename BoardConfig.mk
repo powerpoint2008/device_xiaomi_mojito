@@ -46,14 +46,16 @@ TARGET_COPY_OUT_VENDOR := vendor
 # A/B
 AB_OTA_UPDATER := true
 
-AB_OTA_PARTITIONS := \
+AB_OTA_PARTITIONS += \
     boot \
     dtbo \
+    odm \
     product \
     system \
     system_ext \
     vbmeta \
     vbmeta_system \
+    vendor \
     vendor_boot
 
 # Kernel
